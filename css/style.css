@@ -521,4 +521,59 @@ h6 {
   content: url("/img/arrow-right.svg");
   margin-left: 20px;
   cursor: pointer;
+}
+
+.section-social {
+  margin-top: 81px;
+  margin-bottom: 90px;
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+.section-social__wrap {
+  display: flex;
+}
+.section-social__text {
+  margin-top: 140px;
+}
+.section-social__text > p {
+  margin-top: 40px;
+  width: 376px;
+  height: 43px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444240;
+}
+.section-social__icons {
+  margin-top: 118.67px;
+  width: 93px;
+  height: 22.78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-social__icons > img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.section-social__photos {
+  margin-left: 71px;
+  width: 628px;
+  height: 460px;
+  display: grid;
+  grid-template: "A C" "B C";
+  grid-gap: 10px;
+}
+.section-social__photos > img:nth-child(1) {
+  grid-area: A;
+}
+.section-social__photos > img:nth-child(2) {
+  grid-area: B;
+}
+.section-social__photos > img:nth-child(3) {
+  grid-area: C;
 }/*# sourceMappingURL=style.css.map */
