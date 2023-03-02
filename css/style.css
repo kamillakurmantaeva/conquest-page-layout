@@ -323,4 +323,120 @@ h6 {
   font-size: 16px;
   line-height: 22px;
   color: #1b1a17;
+}
+
+.heading-2 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1b1a17;
+}
+
+.section-models {
+  height: 720px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+}
+.section-models .section-models__wrap {
+  position: relative;
+}
+.section-models .section-models__wrap > .heading-2 {
+  margin-top: 79px;
+  text-align: center;
+}
+.section-models__see-all {
+  width: 104px;
+  height: 26.5px;
+  display: block;
+  margin-left: auto;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-bottom: 2px solid #c4c0b6;
+  color: #444240;
+}
+.section-models__see-all:hover {
+  opacity: 0.8;
+}
+.section-models__watches {
+  margin-top: 25.5px;
+  margin-bottom: 86px;
+  height: 467px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-models__watch {
+  width: 370px;
+  height: 467px;
+  background: #fdfdfb;
+}
+.section-models__watch:hover {
+  cursor: pointer;
+}
+.section-models__watch > div {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+}
+.section-models__watch > div:hover {
+  opacity: 0.8;
+}
+.section-models__name {
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 110px;
+  height: 15px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: rgba(27, 26, 23, 0.82);
+}
+.section-models__price {
+  margin-top: 10px;
+  margin-left: 40px;
+  height: 12px;
+  font-family: "Prata", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+.section-models__price::after {
+  content: url("/img/ruble-small.svg");
+  margin-left: 6px;
+}
+.section-models__img {
+  margin: 0px auto;
+  width: 313px;
+  height: 313px;
+  display: block;
+  background: url(/img/ellipse-watch.svg);
+}
+.section-models__line {
+  width: 30px;
+  height: 0px;
+  border: 1px solid #8b8371;
+}
+.section-models__more {
+  margin-left: 18px;
+  width: 92px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1b1a17;
 }/*# sourceMappingURL=style.css.map */
